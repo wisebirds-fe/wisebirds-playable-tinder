@@ -1,0 +1,20 @@
+{
+  "name": "wisebirds-playable-tinder",
+  "version": "1.0.0",
+  "author": "mornya",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.5.2",
+    "ajv-keywords": "^3.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "^1.1.4",
+    "react-spring": "^5.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

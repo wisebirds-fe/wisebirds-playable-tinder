@@ -1,0 +1,17 @@
+{
+  "logo": {
+    "data": "/images/tinder_playable_background_logo.png"
+  },
+  "bottom": {
+    "data": "/images/tinder_playable_roll_text.gif"
+  },
+  "nope": {
+    "data": "/images/tinder_playable_stamp_nope.png"
+  },
+  "like": {
+    "data": "/images/tinder_playable_stamp_like.png"
+  },
+  "superLike": {
+    "data": "/images/tinder_playable_stamp_superlike.png"
+  }
+}

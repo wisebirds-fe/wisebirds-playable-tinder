@@ -1,0 +1,14 @@
+{
+  "buttonLeft": {
+    "data": "/images/tinder_playable_popup_Lswipe.png"
+  },
+  "buttonRight": {
+    "data": "/images/tinder_playable_popup_Rswipe.png"
+  },
+  "buttonTop": {
+    "data": "/images/tinder_playable_popup_Uswipe.png"
+  },
+  "message": {
+    "data": "/images/tinder_playable_popup_text.png"
+  }
+}
