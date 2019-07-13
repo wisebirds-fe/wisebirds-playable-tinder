@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 import styles from './styles';
 
-class AppFinish extends Component {
+class AppFinish extends React.Component {
   onClick = () => {
     // 페이스북 플레이어블 앱 등록을 위해 CTA버튼 클릭시 FbPlayableAd.onCTAClick()를 반드시 호출해야 함.
     window.FbPlayableAd && window.FbPlayableAd.onCTAClick();

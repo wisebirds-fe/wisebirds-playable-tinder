@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 import AppGuide from './AppGuide';
 import AppPlay from './AppPlay';
 import AppFinish from './AppFinish';
 import styles from './styles';
 
-class App extends Component {
+class App extends React.Component {
   state = {
     isPlay: false,
     isFinish: false,

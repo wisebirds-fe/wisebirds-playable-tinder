@@ -1,5 +1,5 @@
-import React, { PureComponent, Fragment } from 'react';
-import { Spring } from 'react-spring';
+import * as React from 'react';
+import { Spring } from 'react-spring/renderprops';
 import {
   getDirection,
   //getOpacity,
@@ -36,7 +36,7 @@ const INITIAL_STATE = {
   pristine: true,
 };
 
-export default class Swipeable extends PureComponent {
+export default class Swipeable extends React.PureComponent {
   static defaultProps = DEFAULT_PROPS;
 
   state = INITIAL_STATE;
@@ -162,7 +162,7 @@ export default class Swipeable extends PureComponent {
     //  getOpacity(offsetY, limitY, min) : getOpacity(offsetX, limitX, min);
 
     return (
-      <Fragment>
+      <>
         <Spring
           from={{ offsetX: 0, offsetY: 0, opacity: 1 }}
           to={{ offsetX, offsetY, /*opacity*/ }}
@@ -192,7 +192,7 @@ export default class Swipeable extends PureComponent {
           top: () => this.forceSwipe('top'),
           bottom: () => this.forceSwipe('bottom'),
         })}
-      </Fragment>
+      </>
     );
   }
 }

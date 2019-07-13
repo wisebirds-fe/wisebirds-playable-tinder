@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 import styles from './styles';
 
-class AppGuide extends Component {
+class AppGuide extends React.Component {
   state = {
     visible: true,
   };

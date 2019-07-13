@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import * as React from 'react';
 import Swipeable from './Swipable';
 import Card from './Card';
 //import Button from './Button';
@@ -13,7 +13,7 @@ import styles from './styles';
 
 const assetPhotoEntries = Object.entries(assetPhotos);
 
-class AppPlay extends Component {
+class AppPlay extends React.Component {
   state = {
     currCard: 0,
     restCard: assetPhotoEntries.length,
@@ -59,7 +59,7 @@ class AppPlay extends Component {
 
   renderCardContent = (photoEntry, cardStatus = null, isSwiping = false) => {
     return (
-      <Fragment>
+      <>
         <span style={{
           ...styles.content,
           backgroundImage: Helpers.getAssetData(photoEntry),
@@ -77,7 +77,7 @@ class AppPlay extends Component {
           <span style={{ ...styles.cardStatus, ...styles.cardStatusSuperLike }}>SUPER LIKE</span>
           : null
         }
-      </Fragment>
+      </>
     );
   };
 

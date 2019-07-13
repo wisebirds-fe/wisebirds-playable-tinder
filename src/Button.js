@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 const buttonStyles = {
   padding: '8px 16px',
@@ -8,8 +8,6 @@ const buttonStyles = {
   borderRadius: 3,
 };
 
-const Button = ({ children, onClick }) => (
+export default ({ children, onClick }) => (
   <button onClick={onClick} style={{ ...buttonStyles }}>{children}</button>
 );
-
-export default Button;

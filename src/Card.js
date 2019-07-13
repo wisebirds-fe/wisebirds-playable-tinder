@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 const cardStyles = {
   display: 'flex',
@@ -13,8 +13,6 @@ const cardStyles = {
   justifyContent: 'center',
 };
 
-const Card = ({ zIndex = 0, children }) => (
+export default ({ zIndex = 0, children }) => (
   <div style={{ ...cardStyles, zIndex }}>{children}</div>
 );
-
-export default Card;
