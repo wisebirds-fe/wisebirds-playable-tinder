@@ -3,14 +3,6 @@
   "version": "1.0.0",
   "author": "mornya",
   "private": true,
-  "dependencies": {
-    "ajv": "^6.10.2",
-    "ajv-keywords": "^3.4.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "^3.3.0",
-    "react-spring": "^8.0.27"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -22,5 +14,13 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "dependencies": {
+    "ajv": "^6.12.0",
+    "ajv-keywords": "^3.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
+    "react-spring": "^8.0.27"
+  }
 }
