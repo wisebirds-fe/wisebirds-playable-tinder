@@ -16,7 +16,7 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "ajv": "^6.12.0",
+    "ajv": "^6.12.3",
     "ajv-keywords": "^3.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
